@@ -10,12 +10,13 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <dependencies>
-        <dependency>
-            <groupId>javax</groupId>
-            <artifactId>javaee-api</artifactId>
-            <version>11</version>
-            <scope>provided</scope>
-        </dependency>
+     	<dependency>
+    	<groupId>org.openrewrite</groupId>
+    	<artifactId>rewrite-java-11</artifactId>
+    	<version>8.5.2</version>
+    	<scope>runtime</scope>
+</dependency>
+
     </dependencies>
     <scm>
         <connection>scm:git:https://github.com/javaee-samples/javaee7-simple-sample.git</connection>
